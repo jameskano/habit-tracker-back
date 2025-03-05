@@ -1,30 +1,30 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "commonjs",
-      "outDir": "./dist",
-      "rootDir": "./src",
-      "strict": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "allowJs": false,
-      "noEmit": true,
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "noUnusedLocals": false,
-        "noUnusedParameters": false,
-        "downlevelIteration": true,
-        "allowImportingTsExtensions": true,
-        "allowSyntheticDefaultImports": true,
-        "noFallthroughCasesInSwitch": true,
-        "moduleResolution": "node",
-        "baseUrl": "src",
-        "noImplicitAny": true,
-        "sourceMap": true,
-        "paths": {
-            "*": ["node_modules/*", "src/types/*"]
-        },
-      "forceConsistentCasingInFileNames": true
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "downlevelIteration": true,
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
     },
-    "include": ["src"]
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
 }
